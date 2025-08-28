@@ -14,17 +14,17 @@
   "env": {
     "API_ID": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "29448785",
+      "value": "22657083",
       "required": true
     },
     "API_HASH": {
       "description": "Get this value from https://my.telegram.org",
-      "value": "599574f6aff0a09ebb76305b58e7e9c2",
+      "value": "d6186691704bd901bdab275ceaab88f3",
       "required": true
     },
     "BOT_TOKEN": {
       "description": "A Bot's token from Botfather",
-      "value": "",
+      "value": "8282456879:AAHucAv_ywMhhisnJZhm3MzDk-1awg06UDw",
       "required": true
     },
     "MONGO_DB_URI": {
@@ -34,17 +34,17 @@
     },
     "OWNER_ID": {
       "description": "The user id of user whom you would like to add as OWNER.",
-      "value": "7574330905",
+      "value": "6395780961",
       "required": true
     },
     "OWNER_USERNAME": {
       "description": "The username of the owner (without @)",
-      "value": "WTF_WhyMeeh",
+      "value": "Lord_sikio",
       "required": true
     },
     "BOT_USERNAME": {
       "description": "The username of your bot (without @)",
-      "value": "ShrutixMusicBot",
+      "value": "ganpatmusicbot",
       "required": true
     },
     "UPSTREAM_REPO": {
@@ -54,7 +54,7 @@
     },
     "STRING_SESSION": {
       "description": "A Pyrogram v2 String Session from Replit.",
-      "value": "",
+      "value": "1BVtsOJwBu2RzQzBRoPAJSvI6E0dY0iJ4YWpQ2vQbwO10Ew0rGmFeN7taerdgowhdEcwxWbDCdxpKrcn-hCGSYb2jLw9qKXRhH8gQSBM4j3n5tK4f-OBjjVXT-_2KYsaRKX2IElGRAAXll5kgGZ9H7ZoxVAf7fO8X_DdDDrx-rTDroZEJyEErk-1FjymEM4WCHBqhQ0Z3PxBUPG6bqbJaRe1rr9uMfID8iEvgP7Zj9BHIXDpV54bQ6mS62aZIONzwo86aawUmPcbhWEWSNmPR9D-0oyVduzoeYF9h8qpiSVszPMD3mqDhJO3KtxorGP70m_ScpcdIAYXsQj7dLXyDxQhzKJl8nys=",
       "required": true
     },
     "GIT_TOKEN": {
@@ -74,27 +74,27 @@
     },
     "LOG_GROUP_ID": {
       "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Do not ever try to put channel ID here.",
-      "value": "-1002321189618",
+      "value": "",
       "required": true
     },
     "SUPPORT_GROUP": {
       "description": "Your support group username (without @)",
-      "value": "https://t.me/ShrutiBotsupport",
+      "value": "https://t.me/ganpat_music",
       "required": false
     },
     "SUPPORT_CHANNEL": {
       "description": "Your support channel username (without @)",
-      "value": "https://t.me/ShrutiBots",
+      "value": "https://t.me/ganpat_support",
       "required": false
     },
     "INSTAGRAM": {
       "description": "Your Instagram profile link",
-      "value": "https://instagram.com/yaduwanshi_nand",
+      "value": "",
       "required": false
     },
     "YOUTUBE": {
       "description": "Your YouTube channel link",
-      "value": "https://youtube.com/@NandEditz",
+      "value": "",
       "required": false
     },
     "GITHUB": {
@@ -104,7 +104,7 @@
     },
     "DONATE": {
       "description": "Link where people can support/donate",
-      "value": "https://t.me/ShrutiBots/91",
+      "value": "",
       "required": false
     },
     "COOKIE_URL": {
