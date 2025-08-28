@@ -75,7 +75,7 @@ class Aviax(Client):
                 await self.send_photo(
                     config.LOG_GROUP_ID,
                     photo=config.START_IMG_URL,
-                    caption=f"╔════❰𝗪𝗘𝗟𝗖𝗢𝗠𝗘❱════❍⊱❁۪۪\n║\n║┣⪼🥀ʙᴏᴛ sᴛᴀʀᴛᴇᴅ🎉\n║\n║┣⪼ {self.name}\n║\n║┣⪼🎈ɪᴅ:- `{self.id}` \n║\n║┣⪼🎄@{self.username} \n║ \n║┣⪼💖ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ😍\n║\n╚════════════════❍⊱❁",
+                    caption=f"╭━━━━━━━━━━━━❰ 🎧 𝗪𝗘𝗟𝗖𝗢𝗠𝗘 𝗧𝗢 𝗚𝗔𝗡𝗣𝗔𝗧 𝗠𝗨𝗦𝗜𝗖 𝗕𝗢𝗧 🎶 ❱━━━━━━━━━━━━╮\n║\n│➳𝑩𝒐𝒕 𝑺𝒕𝒂𝒕𝒖𝒔: 𝗔𝗰𝘁𝗶𝘃𝗲, 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 𝗧𝘂𝗻𝗲𝘀 🎵\n│\n│➳ {self.name}\n│\n│┣⪼🌹𝗜𝗗: `{self.id}` \n│\n│➳𝗙𝗼𝗹𝗹𝗼𝘄 𝗨𝘀:@{self.username} \n│ \n║➳𝗧𝗵𝗮𝗻𝗸 𝗬𝗼𝘂 𝗳𝗼𝗿 𝗨𝘀𝗶𝗻𝗴 𝗢𝘂𝗿 𝗕𝗼𝘁 💖\n│\n╰━━━━━━━━━━━━❰ ❁❱━━━━━━━━━━━━╯",
                     reply_markup=button,
                 )
             except pyrogram.errors.ChatWriteForbidden as e:
