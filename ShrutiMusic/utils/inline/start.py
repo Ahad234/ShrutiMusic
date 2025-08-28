@@ -50,6 +50,10 @@ def private_panel(_):
             InlineKeyboardButton(
                 text=_["S_B_11"],
                 callback_data="about_page"
+            ),
+            InlineKeyboardButton(
+                text=_["S_B_12"],
+                callback_data="owner_page"
             )
         ],
         [
@@ -80,12 +84,18 @@ def about_panel(_):
 def owner_panel(_):
     buttons = [
         [
+            InlineKeyboardButton(text=_["S_H_1"], url=config.INSTAGRAM),
+            InlineKeyboardButton(text=_["S_H_2"], url=config.YOUTUBE),
+        ],
+        [
+            InlineKeyboardButton(text=_["S_H_3"], url=config.GITHUB),
+            InlineKeyboardButton(text=_["S_H_4"], url=config.DONATE),
+        ],
+        [
             InlineKeyboardButton(text=_["BACK_BUTTON"], callback_data="settingsback_helper")
         ]
     ]
     return buttons
-
-
 
 
 # ©️ Copyright Reserved - @NoxxOP  Nand Yaduwanshi
